@@ -1,0 +1,111 @@
+.BODY {
+    background: url(bck1\ \(2\).jpg);
+    font-family: 'Poppins', sans-serif;
+    /* old #A3E4DB */
+}
+
+.MAIN_BOX{ 
+    position:absolute;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 25px;
+    backdrop-filter:blur(4px);
+    top: 10%;
+    left: 50%;
+    margin-left: -600px;
+    box-shadow: 0 0 20px 0px #e29dbd;
+}
+
+.PROFILE_PHOTO{
+    margin: 125px 0 0 65px;
+    border-radius: 30px;
+    width: 120px;
+    height: 160px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.BUTTON_BOX{
+    margin-left: 430px;
+    margin-top: 70px;
+    width: 525px;
+    height: 75px;
+    border-radius: 25px;
+    background-color:#FFEBC9;
+    float:bottom;
+}
+
+.BUTTON_BOX_HEADER{
+    color: #7e5b86;
+    font-weight: 600;
+    float:left;
+    margin: 27px 0 0 65px;
+}
+
+#HEADER_SELECTED{
+    color: #674a6e;
+    font-weight: 800;
+    text-shadow: 0 0 10px 0 rgb(47, 94, 59);
+    margin-top: 23px;
+}
+
+.MENU_LINK:hover{
+    
+    
+    text-decoration: none;
+    animation-name: hovering;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes hovering {
+    from{font-size:18.72px;}
+    to{font-size: 21px;}
+}
+
+.MENU_LINK{
+    text-decoration: none;
+    color: #E36BAE;
+}
+
+.PHOTOS_BOX{
+}
+
+.PROFILE_PHOTO_INFO{
+    filter: saturate(.5);
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 55px;
+    width: 20%;
+    height: 20%;
+    border-radius: 25px;
+    
+}
+.PROFILE_PHOTO_INFO:hover{
+    filter: saturate(1);
+}
+
+.INFO_TEXT_BOX{
+    padding-top: 1px;
+width: 735px;
+height: 368px;
+background-color: #FFEBC9;
+border-radius: 25px;
+margin-left:365px;
+margin-top:-368px;
+
+}
+
+.INFO_TEXT{
+    color: #E36BAE;
+text-align: justify;
+margin: 30px 25px 0 25px;
+}
+
+.INFO_HEADER{
+    color: #E36BAE;
+margin:25px 0 0 50px;
+}
